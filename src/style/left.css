@@ -1,0 +1,118 @@
+.left {
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+#p-bill {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #5E7A7D;
+}
+
+#i-bill {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00494D;
+    text-align: right;
+    outline: 0;
+    border: 0;
+    border-radius: 7px;
+    background: url(../images/icon-dollar.svg) #F4FAFA no-repeat scroll 4% 50%;
+    background-size: 2.5%;
+    height: 60px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#p-buttons {
+    font-weight: 700;
+    font-size: 24px;
+    color: #5E7A7D;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    width: 30%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    background: #00494D;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: hsl(184, 14%, 56%);
+}
+
+.custom {
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    color: #5E7A7D;
+    font-size: 24px;
+    font-weight: 700;
+    background: #F4FAFA;
+    border: 0;
+    border-radius: 8px;
+    outline: 0;
+    margin-bottom: 10px;
+}
+
+.custom:hover {
+    cursor: pointer;
+    background: white;
+}
+
+#p-people {
+    font-weight: 700;
+    font-size: 24px;
+    color: #5E7A7D;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#i-people {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00494D;
+    text-align: right;
+    height: 60px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url(../images/icon-person.svg) #F4FAFA no-repeat scroll 4% 50%;
+    background-size: 2.5%;
+    margin-bottom: 47px;
+}
+
+.usd-to-try {
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    background: #00494D;
+    border-radius: 8px;
+}
