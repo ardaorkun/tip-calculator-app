@@ -13,7 +13,7 @@ function App() {
   const [result, setResult] = useState({});
   
   useEffect(() => {
-    fetch("http://api.exchangeratesapi.io/v1/latest?access_key=06d6c49153965a5dd2bff9ce18f67d89")
+    fetch("http://api.exchangeratesapi.io/v1/latest?access_key=???")
       .then(responseObject => {
         return responseObject.json();
       })
